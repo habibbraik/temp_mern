@@ -1,0 +1,117 @@
+.category-section {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 80vw;
+    border-radius: 30px;
+    padding: 35px;
+    position: relative;
+}
+
+.wrapper .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.icon:first-child {
+    left: 0;
+    background: linear-gradient(90deg, #F9F9F9 70%, transparent);
+}
+
+.icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, #F9F9F9 70%, transparent);
+}
+
+.icon svg {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #2A138A;
+    cursor: pointer;
+}
+
+.icon svg:hover {
+    transition: 0.3s;
+    background-color: #efedfb;
+}
+
+.icon:first-child svg {
+    margin-left: 15px;
+}
+
+.icon:last-child svg {
+    margin-right: 15px;
+}
+
+.wrapper .tabs-box {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+.tabs-box .tab {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .tab button{
+    background: transparent;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.tabs-box{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.tabs-box .tab{
+    color: black;
+}
+.hide-icon{
+    display: none;
+    opacity: 0;
+}
+.tabs-box .activedcat {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .activedcat button{
+    background: rgb(76,53,196);
+    background: linear-gradient(90deg, rgba(76,53,196,1) 0%, rgba(160,119,247,1) 100%);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,105 @@
+.mainHomeRightbar{
+    background-color: rgba(205, 205, 205, 0.391);
+    height: 100vh;
+    flex: 4;
+    margin-left: 250px;
+}
+.ItemContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 40px;
+}
+.ItemContainer1{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 330px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding-top: 30px; */
+    padding-bottom: 10px;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.taskProgress{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 0;
+    color: rgb(76, 77, 78);
+    font-weight: 600;
+    font-size: 14px;
+}
+.taskCounter{
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #2A138A;
+}
+.currentMonth1{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgb(76, 77, 78);
+    font-weight: 600;
+    font-size: 14px;
+}
+.barchartContainer{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.subItemContainer{
+    margin-top: 42px;
+}
+.subItemContainer1{
+    margin-top: 29px;
+}
+.middleTaskChart{
+    width: 96%;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.taskCreatedvsCompleted{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tasksContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 96%;
+}
+.taskChart{
+    flex: 1.7;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.MonthlyEarning{
+    flex: 4;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.taskContainerText{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 5px;
+}

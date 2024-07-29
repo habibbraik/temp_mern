@@ -1,0 +1,96 @@
+.mainSidebarContainer {
+    position: fixed; /* Ensure the sidebar remains fixed while scrolling */
+    top: 0;
+    left: 0;
+    width: 20%; /* Specify a fixed width for the sidebar */
+    background: linear-gradient(90deg, rgba(76, 53, 196, 1) 0%, rgba(38, 16, 135, 1) 100%);
+    height: 100vh;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-sidebare {
+    width: 100%;
+}
+
+.ulContainer {
+    margin-top: 90px;
+    width: 100%;
+}
+
+.liContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (left) */
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto; /* Ensure the space appears on the left */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    gap: 10px;
+}
+.clickedli{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (left) */
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto; /* Ensure the space appears on the left */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #814CCF;
+}
+
+.liContainer a {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+}
+/* .clickedli a {
+   
+    text-align: start;
+} */
+
+.sidebarIconsDas {
+    height: 20px;
+    width: 20px;
+}
+.clickedLink{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #814CCF;
+}
+.ItemsNames {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: white;
+}
+
+.AdminTitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AdminTitle h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+}
+
+.AdminTitle img {
+    height: 30px;
+    width: 100px;
+    font-size: 50px;
+}

@@ -1,0 +1,96 @@
+.studients{
+    margin-left: 20%; /* Same width as sidebar */
+    flex: 4;
+
+}
+.iscriptions-header h1{
+    font-size: 36px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, rgba(75,52,195,1) 0%, rgba(162,121,249,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+.iscriptions-header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 60%;
+}
+.content-studient{
+    max-width: 95%;
+    padding-top: 30px;
+    margin: auto;
+}
+.content-inscriptions-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inscriptios-details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.identity-img{
+    height: 41px;
+    width: 41px;
+    background-color: #6B6B6B;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.identity-img img{
+    height: 100%;
+    width: 100%;
+}
+.identity h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    text-align: start;
+}
+.email-student h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-align: start;
+}
+.studients-buttons{
+    display: flex;
+    gap: 10px;
+}
+.studients-buttons button{
+    height: 33px;
+    width: 93px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.view-studient{
+    background: rgb(89,66,199);
+    background: linear-gradient(90deg, rgba(89,66,199,1) 0%, rgba(157,117,245,1) 100%);
+}
+.delete-studient{
+    background-color: #B12E5D;
+}
+.studients-buttons button:hover{
+    transform: scale(0.9);
+}

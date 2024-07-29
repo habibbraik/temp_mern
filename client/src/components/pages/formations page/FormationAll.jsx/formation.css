@@ -1,0 +1,91 @@
+.formations-ever-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.formations-all-order{
+    max-width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.card-complet{
+    height: 320px;
+    background-color: #AB91F424;
+    border-radius: 10px;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+.card-complet:hover{
+    scale: 1.01;
+}
+.img-card-demi-complete{
+    height: 50%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.card-complet img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.categorie-carte{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+    padding: 2px 4px;
+    background-color: #AC7FE7;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 15px;
+    width: fit-content;
+}
+.demi-carte h3{
+    font-size: 18px;
+    margin-top: 5px;
+    max-width: 100%;
+}
+.demi-carte{
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto auto auto;
+    row-gap: 5px;
+    padding: 0 10px;
+}
+
+.nombre-inscription{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #00000070;
+    font-weight: 400;
+}
+
+.bas-carte{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bas-carte h4{
+    font-size: 19px;
+    font-weight: 500;
+}
+.bas-carte button{
+    background-color: #4B34C3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.bas-carte button a{
+    color: white;
+}
